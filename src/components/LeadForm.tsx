@@ -68,26 +68,24 @@ export default function LeadForm({ branchId }: { branchId?: string }) {
         <p className="text-slate-600 mb-10 font-medium">Fill the form below to start your global education journey.</p>
 
         <form onSubmit={handleSubmit} className="space-y-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="space-y-2">
-              <label className="text-xs font-black uppercase tracking-widest text-primary/70 ml-1">Full Name</label>
-              <input 
-                required
-                name="name"
-                placeholder="John Doe"
-                className="w-full bg-slate-50 border border-slate-100 rounded-2xl px-6 py-4 focus:ring-2 focus:ring-accent transition-all outline-none font-medium"
-              />
-            </div>
-            <div className="space-y-2">
-              <label className="text-xs font-black uppercase tracking-widest text-primary/70 ml-1">Phone Number</label>
-              <input 
-                required
-                name="phone"
-                type="tel"
-                placeholder="+91 00000 00000"
-                className="w-full bg-slate-50 border border-slate-100 rounded-2xl px-6 py-4 focus:ring-2 focus:ring-accent transition-all outline-none font-medium"
-              />
-            </div>
+          <div className="space-y-2">
+            <label className="text-xs font-black uppercase tracking-widest text-primary/70 ml-1">Full Name</label>
+            <input 
+              required
+              name="name"
+              placeholder="John Doe"
+              className="w-full bg-slate-50 border border-slate-100 rounded-2xl px-6 py-4 focus:ring-2 focus:ring-accent transition-all outline-none font-medium"
+            />
+          </div>
+          <div className="space-y-2">
+            <label className="text-xs font-black uppercase tracking-widest text-primary/70 ml-1">Phone Number</label>
+            <input 
+              required
+              name="phone"
+              type="tel"
+              placeholder="+91 00000 00000"
+              className="w-full bg-slate-50 border border-slate-100 rounded-2xl px-6 py-4 focus:ring-2 focus:ring-accent transition-all outline-none font-medium"
+            />
           </div>
 
           <div className="space-y-2">
