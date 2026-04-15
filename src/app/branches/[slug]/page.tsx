@@ -93,7 +93,7 @@ export default async function BranchDetailPage({ params }: PageProps) {
               {branch.name}
             </h1>
             
-            <p className="text-white/60 text-base md:text-xl font-medium max-w-2xl leading-relaxed italic">
+            <p className="text-white/60 text-base md:text-xl font-medium max-w-2xl leading-relaxed">
                "{branch.description || `Specialized study abroad guidance for students in ${branch.city}, focusing on high-authority university admissions and end-to-end visa counseling.`}"
             </p>
           </div>
@@ -107,7 +107,7 @@ export default async function BranchDetailPage({ params }: PageProps) {
                <div className="w-12 h-12 md:w-14 md:h-14 bg-emerald-50 rounded-xl md:rounded-2xl flex items-center justify-center text-accent"><Globe size={24} /></div>
                <div>
                   <h4 className="text-[10px] md:text-sm font-black text-primary uppercase tracking-tighter opacity-60">Global Success</h4>
-                  <p className="text-2xl md:text-3xl font-black tracking-tighter text-slate-800">{branch.visa_rate || '99.8%'} <span className="text-[10px] text-slate-400 font-bold ml-1 uppercase tracking-widest italic leading-none">Visa Rate</span></p>
+                  <p className="text-2xl md:text-3xl font-black tracking-tighter text-slate-800">{branch.visa_rate || '99.8%'} <span className="text-[10px] text-slate-400 font-bold ml-1 uppercase tracking-widest leading-none">Visa Rate</span></p>
                </div>
             </div>
             <div className="hidden lg:block h-12 w-px bg-slate-100" />
@@ -115,7 +115,7 @@ export default async function BranchDetailPage({ params }: PageProps) {
                <div className="w-12 h-12 md:w-14 md:h-14 bg-emerald-50 rounded-xl md:rounded-2xl flex items-center justify-center text-accent"><UserCheck size={24} /></div>
                <div>
                   <h4 className="text-[10px] md:text-sm font-black text-primary uppercase tracking-tighter opacity-60">Student Trust</h4>
-                  <p className="text-2xl md:text-3xl font-black tracking-tighter text-slate-800">{branch.student_count || '2,500+'} <span className="text-[10px] text-slate-400 font-bold ml-1 uppercase tracking-widest italic leading-none">Placed</span></p>
+                  <p className="text-2xl md:text-3xl font-black tracking-tighter text-slate-800">{branch.student_count || '2,500+'} <span className="text-[10px] text-slate-400 font-bold ml-1 uppercase tracking-widest leading-none">Placed</span></p>
                </div>
             </div>
             <div className="hidden lg:block h-12 w-px bg-slate-100" />
@@ -183,7 +183,7 @@ export default async function BranchDetailPage({ params }: PageProps) {
                          <div className="space-y-1 md:space-y-2 mb-6 md:mb-8">
                             <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-[8px] md:text-[9px] font-black uppercase tracking-widest mb-2 inline-block">Success Architect</span>
                             <h4 className="text-lg md:text-xl font-black text-primary uppercase tracking-tight leading-none">{expert.name}</h4>
-                            <p className="text-[10px] md:text-xs text-slate-400 font-bold uppercase tracking-widest italic">{expert.designation}</p>
+                            <p className="text-[10px] md:text-xs text-slate-400 font-bold uppercase tracking-widest">{expert.designation}</p>
                          </div>
 
                          <Link 

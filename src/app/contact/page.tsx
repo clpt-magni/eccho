@@ -1,5 +1,16 @@
 import LeadForm from "@/components/LeadForm";
 import { Mail, Phone, MapPin, MessageSquare, Clock } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact Eccho Overseas | Free Study Abroad Consultation | Book Appointment",
+  description: "Get in touch with Eccho Overseas for a free study abroad consultation. Call us, visit our office, or fill out our form. Expert visa & admission guidance for UK, USA, Ireland, Australia & Europe. Available in Guntur, Hyderabad & Canterbury UK.",
+  keywords: ["contact Eccho Overseas", "free study abroad consultation", "book appointment study abroad", "overseas education helpline", "study abroad phone number", "Eccho Overseas contact"],
+  openGraph: {
+    title: "Contact Us | Free Consultation | Eccho Overseas",
+    description: "Book your free study abroad consultation today. Expert advisors ready to guide your international education journey.",
+  },
+};
 
 export default function ContactPage() {
   return (

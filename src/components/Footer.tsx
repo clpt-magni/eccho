@@ -40,7 +40,7 @@ export default function Footer() {
             <li><Link href="/services" className="hover:text-white transition-colors">Our Services</Link></li>
             <li><Link href="/countries" className="hover:text-white transition-colors">Destinations</Link></li>
             <li><Link href="/branches" className="hover:text-white transition-colors">Find a Branch</Link></li>
-            <li><Link href="/blog" className="hover:text-white transition-colors">Education Blog</Link></li>
+            <li><Link href="/contact" className="hover:text-white transition-colors">Contact Us</Link></li>
           </ul>
         </div>
 
@@ -48,11 +48,11 @@ export default function Footer() {
         <div>
           <h4 className="text-lg font-bold mb-6 text-accent uppercase tracking-tight">Top Destinations</h4>
           <ul className="space-y-4 text-sm text-white/85 font-medium">
-            <li><Link href="/countries/usa" className="hover:text-white transition-colors">Study in USA</Link></li>
             <li><Link href="/countries/uk" className="hover:text-white transition-colors">Study in UK</Link></li>
-            <li><Link href="/countries/canada" className="hover:text-white transition-colors">Study in Canada</Link></li>
+            <li><Link href="/countries/ireland" className="hover:text-white transition-colors">Study in Ireland</Link></li>
+            <li><Link href="/countries/usa" className="hover:text-white transition-colors">Study in USA</Link></li>
             <li><Link href="/countries/australia" className="hover:text-white transition-colors">Study in Australia</Link></li>
-            <li><Link href="/countries/germany" className="hover:text-white transition-colors">Study in Germany</Link></li>
+            <li><Link href="/countries/europe" className="hover:text-white transition-colors">Study in Europe</Link></li>
           </ul>
         </div>
 

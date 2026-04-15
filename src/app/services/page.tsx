@@ -116,7 +116,7 @@ export default function ServicesPage() {
             <span className="text-accent text-xs font-black uppercase tracking-[0.4em] mb-6 block">Our Methodology</span>
             <h1 className="text-6xl lg:text-8xl font-black font-outfit mb-8 tracking-tighter leading-[0.9]">
               End-to-End <br />
-              <span className="text-accent italic">Excellence.</span>
+              <span className="text-accent">Excellence.</span>
             </h1>
             <p className="text-xl text-white/70 max-w-2xl mx-auto leading-relaxed font-medium mb-12">
               We go beyond counseling. We manage the entire lifecycle of your international education journey with professional precision.
@@ -143,7 +143,7 @@ export default function ServicesPage() {
       <section className="max-w-7xl mx-auto px-6 py-32 relative overflow-hidden">
         <div className="text-center mb-32">
            <h2 className="text-4xl lg:text-6xl font-black font-outfit text-primary tracking-tight uppercase mb-6">The Success Journey</h2>
-           <p className="text-slate-600 text-xl font-medium max-w-2xl mx-auto italic">
+           <p className="text-slate-600 text-xl font-medium max-w-2xl mx-auto">
              A high-precision, 8-stage methodology that transforms global ambition into reality.
            </p>
         </div>

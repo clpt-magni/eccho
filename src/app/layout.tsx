@@ -17,25 +17,27 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   metadataBase: new URL("https://ecchouk.co.uk"),
   title: {
-    default: "Eccho Overseas | Premium Study Abroad Consultancy",
+    default: "Eccho Overseas | Best Study Abroad Consultants | UK, USA, Ireland, Australia, Europe",
     template: "%s | Eccho Overseas"
   },
-  description: "Global education guidance for USA, UK, Canada, Australia and more. Top-rated study abroad consultants with over 99% visa success rate.",
-  keywords: ["study abroad", "visa consultancy", "USA visa", "UK admission", "overseas education", "student visa", "Eccho Overseas"],
-  authors: [{ name: "Eccho Overseas" }],
+  description: "India's most trusted study abroad consultancy. Expert guidance for UK, USA, Ireland, Australia, Canada & Europe admissions. 99% visa success rate. 15,000+ students placed at 800+ partner universities worldwide. Free consultation available.",
+  keywords: ["study abroad", "visa consultancy", "USA visa", "UK admission", "overseas education", "student visa", "Eccho Overseas", "study in UK", "study in USA", "study in Ireland", "study in Europe", "study in Australia", "best overseas education consultants", "study abroad consultants India", "IELTS coaching", "university admissions"],
+  authors: [{ name: "Eccho Overseas", url: "https://ecchouk.co.uk" }],
+  creator: "Eccho Overseas",
+  publisher: "Eccho Overseas",
   openGraph: {
     type: "website",
     locale: "en_IN",
     url: "https://ecchouk.co.uk",
     siteName: "Eccho Overseas",
-    title: "Eccho Overseas | Premium Study Abroad Consultancy",
-    description: "Expert guidance for international education. Higher success rates for USA, UK, and Canada.",
+    title: "Eccho Overseas | India's #1 Study Abroad Consultancy",
+    description: "Expert guidance for international education. 99% visa success rate for UK, USA, Ireland, Australia & Europe. 15,000+ students placed.",
     images: ["/images/og-image.jpg"]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Eccho Overseas | Premium Study Abroad Consultancy",
-    description: "Your bridge to global education. Expert visa & admission support.",
+    title: "Eccho Overseas | Best Study Abroad Consultants in India",
+    description: "Your bridge to global education. Expert visa & admission support for UK, USA, Ireland, Australia & Europe.",
     images: ["/images/og-image.jpg"]
   },
   robots: {
@@ -48,6 +50,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  alternates: {
+    canonical: "https://ecchouk.co.uk",
+  },
+  verification: {
+    google: "your-google-verification-code",
   },
 };
 

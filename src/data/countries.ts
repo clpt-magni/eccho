@@ -890,4 +890,87 @@ export const countriesData: CountryDetail[] = [
       { question: 'Is personal income taxed in Dubai?', answer: 'No, there is currently no personal income tax in the UAE.' },
     ],
   },
+  {
+    slug: 'europe',
+    name: 'Europe',
+    flag: '🇪🇺',
+    hero: {
+      intro: 'Europe offers a diverse range of world-class universities, rich cultural experiences, and affordable education across its many nations — from Germany and France to Italy, the Netherlands, and beyond.',
+      highlights: ['Low/Free Tuition at Public Unis', 'Schengen Travel Freedom', 'Multilingual Career Advantage', 'Strong Post-Study Work Options'],
+    },
+    whyStudy: {
+      title: 'Why Study in Europe?',
+      points: [
+        { title: 'Affordable Excellence', desc: 'Many European countries offer free or very low tuition at public universities, making top-tier education accessible.' },
+        { title: 'Cultural Diversity', desc: 'Study in a continent with 44+ countries, each with its own language, cuisine, and traditions — all interconnected by rail and air.' },
+        { title: 'Global Career Edge', desc: 'European degrees are globally recognized. Graduates gain a multilingual, multicultural edge valued by top employers worldwide.' },
+        { title: 'Innovation & Research', desc: 'Europe leads globally in sustainability, automotive engineering, AI, and life sciences research.' },
+      ],
+    },
+    universities: [
+      { name: 'Technical University of Munich (TUM)', description: 'Germany\'s #1 technical university for engineering and sciences.', rank: '#1 Germany' },
+      { name: 'Politecnico di Milano', description: 'Italy\'s peak for design, architecture, and engineering.', rank: '#1 Design EU' },
+      { name: 'HEC Paris', description: 'Europe\'s #1 business school for management and strategy.', rank: '#1 Business' },
+      { name: 'University of Amsterdam', description: 'Top-ranked research university in the Netherlands.', rank: 'Top Netherlands' },
+      { name: 'KTH Royal Institute of Technology', description: 'Sweden\'s premier engineering and innovation hub.', rank: 'Top Sweden' },
+      { name: 'TU Delft', description: 'World leader in civil engineering and technology.', rank: 'Top Engineering' },
+      { name: 'University of Barcelona', description: 'Spain\'s most prestigious university for arts and sciences.', rank: 'Top Spain' },
+      { name: 'SRH Berlin University', description: 'Applied sciences hub with high international intake.', rank: 'Berlin Best' },
+      { name: 'IU International University', description: '#1 for flexible degrees and online-hybrid learning in Germany.', rank: 'Best Private' },
+      { name: 'SKEMA Business School', description: 'Global campus network for innovation across France.', rank: 'Top Global' },
+      { name: 'Università di Bologna', description: 'Oldest university in the world with global prestige.', rank: '#1 Italy' },
+      { name: 'Lund University', description: 'Sweden\'s top research university with global impact.', rank: 'Top Research' },
+      { name: 'Erasmus University Rotterdam', description: 'Leading for economics, business, and health policy.', rank: 'Top Economics' },
+      { name: 'Sapienza University of Rome', description: 'One of Europe\'s largest and most historic universities.', rank: 'Top Rome' },
+      { name: 'Wageningen University', description: '#1 globally for agriculture and environmental sciences.', rank: '#1 Agriculture' },
+    ],
+    courses: {
+      popular: ['Engineering', 'Business Management', 'Data Science', 'Architecture'],
+      trending: ['Sustainability', 'AI & Robotics', 'Renewable Energy', 'Fashion & Design'],
+    },
+    costs: {
+      tuition: '€0 - €4,000/yr (Public); €8,000 - €30,000/yr (Private)**',
+      living: '€8,000 - €15,000 per year',
+      variation: 'Scandinavia and Western Europe are most expensive; Eastern and Southern Europe are very affordable.',
+    },
+    scholarships: {
+      types: ['Erasmus Mundus', 'DAAD (Germany)', 'Eiffel Excellence (France)', 'DSU Regional (Italy)', 'Holland Scholarship (Netherlands)'],
+      eligibility: 'Academic excellence, leadership potential, and sometimes financial need depending on the program.',
+    },
+    admission: {
+      academic: 'Min 60-70% in previous education (varies by country).',
+      english: 'IELTS 6.0-6.5 or equivalent for English-taught programs.',
+      entrance: 'Varies by country: GMAT/GRE for some MBAs; entrance tests for Medicine in Italy.',
+    },
+    visa: {
+      type: 'National D Visa (Long Stay Student Visa) — varies by country',
+      documents: ['University Admission Letter', 'Proof of Funds', 'Health Insurance', 'Blocked Account (Germany)', 'Campus France Confirmation (France)'],
+      processingTime: '4-12 weeks depending on country.',
+      successTips: ['Start visa applications early', 'Each country has unique requirements — research carefully', 'Show clear academic and career motivation.'],
+    },
+    workOccupations: {
+      partTime: '20 hrs/week in most countries; 120 full days/yr in Germany.',
+      internships: 'Often mandatory as part of European degree programs.',
+      psw: '18 months (Germany), 1-2 years (France, Netherlands, Ireland), 1 year (Italy).',
+    },
+    intakes: {
+      main: ['September/October (Winter - Primary)', 'February/March (Summer - Select programs)'],
+      deadlines: 'Typically 3-6 months before the intake. Country-specific deadlines apply.',
+    },
+    living: {
+      accommodation: 'Student Halls, Shared Flats (WG in Germany), Private Studios, Homestays.',
+      transport: 'World-class rail networks, student transit passes, and budget airlines across the continent.',
+      safety: 'Europe is consistently ranked among the safest regions globally for international students.',
+    },
+    career: {
+      scope: 'Strong demand in Engineering, Tech, Healthcare, Sustainability, and Creative Industries.',
+      salary: '€30,000 - €65,000 (varies widely by country and sector).',
+      pr: 'EU Blue Card pathway (Germany); various residence permit options across member states.',
+    },
+    faqs: [
+      { question: 'Can I study in Europe without knowing the local language?', answer: 'Yes, thousands of programs are taught entirely in English across Germany, Netherlands, Sweden, Italy, France, and more.' },
+      { question: 'Can I travel freely across Europe while studying?', answer: 'Yes, with a Schengen visa or residence permit, you can travel across 27 Schengen countries freely.' },
+      { question: 'Which European country has the lowest tuition?', answer: 'Germany and Norway offer free or near-free tuition at public universities. Italy and France also have very low fees.' },
+    ],
+  },
 ];

@@ -103,7 +103,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="text-4xl md:text-5xl lg:text-6xl font-black text-primary leading-[0.95] md:leading-[0.85] tracking-tighter font-outfit uppercase italic"
+            className="text-4xl md:text-5xl lg:text-6xl font-black text-primary leading-[0.95] md:leading-[0.85] tracking-tighter font-outfit uppercase"
           >
             Study Without Borders. <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent via-emerald-500 to-primary">Achieve Without Limits.</span>

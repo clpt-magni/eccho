@@ -87,7 +87,7 @@ export default function FaqSection() {
                     transition={{ duration: 0.4, ease: "easeInOut" }}
                   >
                     <div className="px-8 md:px-10 pb-10">
-                       <div className="pt-6 border-t border-slate-50 text-slate-500 text-base md:text-lg font-medium leading-relaxed italic">
+                       <div className="pt-6 border-t border-slate-50 text-slate-500 text-base md:text-lg font-medium leading-relaxed">
                          "{faq.answer}"
                        </div>
                     </div>

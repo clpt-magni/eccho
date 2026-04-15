@@ -5,8 +5,15 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Best Study Abroad Consultants in India | ecchouk.co.uk",
-  description: "Start your international education journey with India's most trusted study abroad consultants. Specialist in USA, UK, Canada, and Australia admissions with 99.8% success rate.",
+  title: "Eccho Overseas | Best Study Abroad Consultants in India | UK, USA, Ireland, Australia, Europe",
+  description: "India's most trusted study abroad consultancy with 99% visa success rate. Expert guidance for UK, USA, Ireland, Australia & Europe admissions. 15,000+ successful students. Free consultation available. IELTS prep, university selection, visa processing & post-landing support.",
+  keywords: ["study abroad consultants", "best study abroad consultants in India", "UK student visa", "study in UK", "study in USA", "study in Ireland", "study in Europe", "study in Australia", "overseas education consultancy", "visa consultancy India", "IELTS coaching", "university admissions", "Eccho Overseas", "study abroad Guntur", "study abroad Hyderabad"],
+  openGraph: {
+    title: "Eccho Overseas | India's #1 Study Abroad Consultancy",
+    description: "Join 15,000+ students who achieved their dream of studying at top global universities. 99% visa success. Free expert consultation.",
+    url: "https://ecchouk.co.uk",
+    type: "website",
+  },
 };
 
 const services = [
@@ -74,7 +81,7 @@ export default function Home() {
                   <Users size={24} />
                 </div>
                 <h4 className="text-3xl font-black text-primary mb-1">15k+</h4>
-                <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">Global Placements</p>
+                <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">Admissions</p>
               </div>
             </div>
           </div>
@@ -145,19 +152,20 @@ export default function Home() {
             <div className="max-w-2xl space-y-6">
               <h2 className="text-[11px] text-accent font-black uppercase tracking-[0.4em]">Global Gateways</h2>
               <h3 className="text-4xl md:text-6xl lg:text-7xl font-black font-outfit uppercase tracking-tighter leading-none">Top Destinations</h3>
-              <p className="text-white/60 text-lg font-medium max-w-lg italic">Join a community of 15,000+ students across the most prestigious global hubs.</p>
+              <p className="text-white/60 text-lg font-medium max-w-lg">Join a community of 15,000+ students across the most prestigious global hubs.</p>
             </div>
             <Link href="/countries" className="hidden md:flex text-accent items-center gap-4 font-black text-[11px] uppercase tracking-[0.3em] hover:gap-6 transition-all group">
               Explore Global Map <ArrowRight size={20} className="group-hover:translate-x-2 transition-transform" />
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
             {[
-              { name: "USA", slug: "usa", students: "5,000+", img: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=2070&auto=format&fit=crop" },
-              { name: "United Kingdom", slug: "uk", students: "3,500+", img: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?q=80&w=2070&auto=format&fit=crop" },
-              { name: "Canada", slug: "canada", students: "4,000+", img: "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=2011&auto=format&fit=crop" },
-              { name: "Australia", slug: "australia", students: "2,500+", img: "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?q=80&w=2130&auto=format&fit=crop" }
+              { name: "United Kingdom", slug: "uk", students: "8,000+", img: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?q=80&w=2070&auto=format&fit=crop" },
+              { name: "Ireland", slug: "ireland", students: "1,500+", img: "https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?q=80&w=2070&auto=format&fit=crop" },
+              { name: "USA", slug: "usa", students: "1,500+", img: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=2070&auto=format&fit=crop" },
+              { name: "Australia", slug: "australia", students: "2,000+", img: "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?q=80&w=2130&auto=format&fit=crop" },
+              { name: "Europe", slug: "europe", students: "3,000+", img: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?q=80&w=2070&auto=format&fit=crop" }
             ].map((c, i) => (
               <Link key={i} href={`/countries/${c.slug}`} className="group relative overflow-hidden rounded-[60px] aspect-[10/14]">
                 <img src={c.img} alt={c.name} className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" />
@@ -189,12 +197,12 @@ export default function Home() {
               Schedule your elite strategy session with our advisors and join the league of global success stories.
             </p>
             <div className="pt-4">
-               <Link
-                 href="/contact"
-                 className="inline-flex bg-accent text-primary text-[11px] font-black px-10 py-5 rounded-2xl shadow-xl hover:shadow-accent/20 hover:-translate-y-1 transition-all uppercase tracking-[0.2em] active:scale-95"
-               >
-                 Start Free Consultation
-               </Link>
+              <Link
+                href="/contact"
+                className="inline-flex bg-accent text-primary text-[11px] font-black px-10 py-5 rounded-2xl shadow-xl hover:shadow-accent/20 hover:-translate-y-1 transition-all uppercase tracking-[0.2em] active:scale-95"
+              >
+                Start Free Consultation
+              </Link>
             </div>
           </div>
         </div>

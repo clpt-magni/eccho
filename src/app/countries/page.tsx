@@ -45,7 +45,7 @@ export default function CountriesPage() {
             </div>
             <h1 className="text-6xl lg:text-8xl font-black font-outfit mb-8 tracking-tighter leading-[0.9]">
               Explore Your <br />
-              <span className="text-accent italic">Global Future.</span>
+              <span className="text-accent">Global Future.</span>
             </h1>
             <p className="text-xl lg:text-2xl text-white/70 max-w-3xl mx-auto leading-relaxed font-medium mb-16 px-4">
               Explore 800+ top universities across the world's most welcoming study destinations, curated specifically for your career goals.
@@ -56,7 +56,7 @@ export default function CountriesPage() {
               {[
                 { icon: <Award className="text-accent" />, label: "800+", sub: "Uni Partners" },
                 { icon: <Zap className="text-accent" />, label: "99%", sub: "Visa Success" },
-                { icon: <ShieldCheck className="text-accent" />, label: "15k+", sub: "Students Placed" }
+                { icon: <ShieldCheck className="text-accent" />, label: "15k+", sub: "Admissions" }
               ].map((stat, i) => (
                 <div key={i} className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-white/5 rounded-2xl flex items-center justify-center border border-white/10">{stat.icon}</div>
@@ -76,10 +76,10 @@ export default function CountriesPage() {
         <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
           <div className="max-w-2xl">
             <h2 className="text-4xl lg:text-5xl font-black font-outfit text-primary mb-6 tracking-tight uppercase">Featured Destinations</h2>
-            <p className="text-slate-600 text-lg font-medium leading-relaxed italic">
+            <p className="text-slate-600 text-lg font-medium leading-relaxed">
               From the research hubs of North America to the cultural heritage of Europe, choose a destination that matches your ambition.
             </p>
-          </div>
+          </div>Ca
         </div>
 
         <motion.div
@@ -191,7 +191,7 @@ export default function CountriesPage() {
 
           <div className="relative z-10 max-w-4xl mx-auto space-y-12">
             <h2 className="text-5xl lg:text-9xl font-black text-primary mb-6 font-outfit uppercase tracking-tighter leading-[0.85]">Ready to <br /> Go Global?</h2>
-            <p className="text-primary/70 text-xl md:text-2xl font-black leading-relaxed italic max-w-2xl mx-auto">"Schedule your elite strategy session with our advisors and join the league of global success stories."</p>
+            <p className="text-primary/70 text-xl md:text-2xl font-black leading-relaxed max-w-2xl mx-auto">"Schedule your elite strategy session with our advisors and join the league of global success stories."</p>
             <Link
               href="/contact"
               className="inline-flex bg-primary text-white text-[11px] font-black px-16 py-7 rounded-3xl shadow-2xl hover:scale-105 transition-all uppercase tracking-[0.3em] active:scale-95 border-b-8 border-emerald-950"
